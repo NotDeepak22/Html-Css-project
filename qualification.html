@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header {
+            background-color: purple;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .profile {
+            background-color: lightcyan;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+        .profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .profile-details {
+            font-size: 1.2em;
+        }
+        .content {
+            display: flex;
+            margin: 20px;
+        }
+        .sidebar {
+            width: 25%;
+            background-color: lightblue;
+            padding: 10px;
+        }
+        .sidebar a {
+            display: block;
+            margin: 10px 0;
+            text-decoration: none;
+            color: black;
+        }
+        .main {
+            width: 75%;
+            padding: 10px;
+            background-color: #f8f8f8;
+        }
+        .footer {
+            text-align: center;
+            background-color: lightblue;
+            padding: 10px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>My Profile</h1>
+    </div>
+    <div class="profile">
+        <div class="profile-details">
+            <p><strong>Name:</strong> Deepak Sharma
+        </div>
+    </div>
+    <div class="content">
+        <div class="sidebar">
+            <a href="portfolio.html">Home Page</a>
+            <a href="qualification.html">Qualification</a>
+            <a href="accomplishments.html">Accomplishments</a>
+            <a href="personal-info.html">Personal Info</a>
+        </div>
+        <div class="main">
+            <h2 id="qualification">Qualification</h2>
+            
+    <table>
+        <thead>
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Year of Completion</th>
+                <th>Grade/Percentage</th>
+            </tr>
+        </thead>
+        <tbody>
+          
+            <tr>
+                <td>Higher Secondary Education</td>
+                <td>Laxmi International School</td>
+                <td>2021</td>
+                <td>90%</td>
+            </tr>
+            <tr>
+                <td>Secondary School Education</td>
+                <td>Laxmi International School</td>
+                <td>2023</td>
+                <td>72%</td>
+            </tr>
+        </tbody>
+    </table>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Footer</p>
+    </div>
+</body>
+</html>
