@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>cafe</title>
+  <style>
+
+    body{
+        background-image: url(https://images.unsplash.com/photo-1688596742130-5707eefbef54?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNvZmZlZSUyMGJlYW5zfGVufDB8fDB8fHww );
+        background-size: cover;
+    }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  
+}
+.container{
+    color: #e76f51;
+}
+
+.header .logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.header .navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 400;
+}
+
+.header .navbar a:hover {
+  color: #f4a261;
+}
+
+.hero {
+  background: url('https://source.unsplash.com/1600x800/?coffee,cafe') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.hero .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #f4a261;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.hero .btn:hover {
+  background: #e76f51;
+}
+
+.menu {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.menu h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.menu .menu-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menu .item {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.menu .item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.menu .item p {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.menu .item span {
+  font-weight: 600;
+  color: #f4a261;
+}
+
+.about {
+  padding: 50px 20px;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 600px;
+  margin: auto;
+  color: #555;
+}
+
+.contact {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  color: #555;
+}
+
+.footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Cafe Delight</h1>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Welcome to Cafe Delight</h2>
+      <p>Your perfect coffee experience awaits.</p>
+      <a href="#menu" class="btn">Explore Menu</a>
+    </div>
+  </section>
+
+  <section id="menu" class="menu">
+    <div class="container">
+      <h2>Our Menu</h2>
+      <div class="menu-items">
+        <div class="item">
+          <h3>Espresso</h3>
+          <p>Rich and bold coffee shot.</p>
+          <span>$3.50</span>
+        </div>
+        <div class="item">
+          <h3>Cappuccino</h3>
+          <p>Creamy coffee with steamed milk foam.</p>
+          <span>$4.00</span>
+        </div>
+        <div class="item">
+          <h3>Latte</h3>
+          <p>Smooth coffee with milk.</p>
+          <span>$4.50</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>At Cafe Delight, we pride ourselves on serving the finest coffee made from freshly roasted beans. Our cozy environment is perfect for a quick coffee break or a long conversation with friends.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Email: info@cafedelight.com</p>
+      <p>Phone: (123) 456-7890</p>
+      <p>Address: 123 Coffee St, Java City</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Cafe Delight. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
